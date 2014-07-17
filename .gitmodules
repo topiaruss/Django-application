@@ -10,9 +10,6 @@
 [submodule "deploy/roles/Ansibles.postgresql"]
 	path = deploy/roles/Ansibles.postgresql
 	url = https://github.com/Ansibles/postgresql.git
-[submodule "deploy/roles/Stouts.django"]
-	path = deploy/roles/Stouts.django
-	url = https://github.com/Stouts/Stouts.django.git
 [submodule "deploy/roles/Stouts.foundation"]
 	path = deploy/roles/Stouts.foundation
 	url = https://github.com/Stouts/Stouts.foundation.git
@@ -49,3 +46,7 @@
 [submodule "deploy/roles/Stouts.python"]
 	path = deploy/roles/Stouts.python
 	url = https://github.com/Stouts/Stouts.python.git
+[submodule "deploy/roles/Stouts.django"]
+	path = deploy/roles/Stouts.django
+	url = git@github.com:topiaruss/Stouts.django.git
+	branch = develop
