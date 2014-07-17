@@ -13,9 +13,6 @@
 [submodule "deploy/roles/Ansibles.python"]
 	path = deploy/roles/Ansibles.python
 	url = https://github.com/Ansibles/python.git
-[submodule "deploy/roles/Ansibles.timezone"]
-	path = deploy/roles/Ansibles.timezone
-	url = https://github.com/Ansibles/timezone.git
 [submodule "deploy/roles/Stouts.django"]
 	path = deploy/roles/Stouts.django
 	url = https://github.com/Stouts/Stouts.django.git
@@ -52,3 +49,6 @@
 [submodule "Stouts.deploy"]
 	path = Stouts.deploy
 	url = https://github.com/Stouts/Stouts.deploy.git
+[submodule "deploy/roles/Stouts.timezone"]
+	path = deploy/roles/Stouts.timezone
+	url = https://github.com/Stouts/Stouts.timezone
