@@ -43,9 +43,6 @@
 [submodule "deploy/roles/Stouts.redis"]
 	path = deploy/roles/Stouts.redis
 	url = https://github.com/Stouts/Stouts.redis.git
-[submodule "Stouts.deploy"]
-	path = Stouts.deploy
-	url = https://github.com/Stouts/Stouts.deploy.git
 [submodule "deploy/roles/Stouts.timezone"]
 	path = deploy/roles/Stouts.timezone
 	url = https://github.com/Stouts/Stouts.timezone
