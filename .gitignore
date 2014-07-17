@@ -8,3 +8,6 @@
 /.env
 *.egg-info
 /celerybeat*
+/.idea
+/*.pylama
+/db.sqlite
