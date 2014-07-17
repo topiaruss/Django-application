@@ -50,3 +50,6 @@
 	path = deploy/roles/Stouts.django
 	url = git@github.com:topiaruss/Stouts.django.git
 	branch = develop
+[submodule "deploy/roles/Stouts.deploy"]
+	path = deploy/roles/Stouts.deploy
+	url = https://github.com/Stouts/Stouts.deploy
