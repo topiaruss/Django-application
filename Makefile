@@ -59,6 +59,7 @@ lint: $(VENV)
 # target: test - Run project's tests
 TEST ?=
 test: $(VENV)
+	$(VENV)/bin/pip install -e .
 	$(VENV)/bin/py.test
 
 t: test
