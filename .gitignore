@@ -11,3 +11,4 @@
 /.idea
 /*.pylama
 /db.sqlite
+/.vagrant
