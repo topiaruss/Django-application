@@ -1,5 +1,5 @@
 VENV ?= $(CURDIR)/../venv
-SETTINGS ?= main.settings.local
+SETTINGS ?= main.settings.develop
 MANAGER = $(CURDIR)/project/manage.py
 REQUIREMENTS = $(CURDIR)/requirements.txt
  
