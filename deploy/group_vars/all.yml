@@ -37,7 +37,7 @@ wsgi_apt_packages:
 
 django_app_path: "{{wsgi_directory}}/{{base_project_name}}"
 django_manage_list:
-django_settings_module: "main.settings.local"
+django_settings_module: "main.settings.develop"
 django_settings_databases:
   - default:
       ENGINE: django.db.backends.postgresql_psycopg2
