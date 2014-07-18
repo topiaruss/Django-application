@@ -26,7 +26,7 @@ source_known_hosts: [github.com]
 source_owner: "{{base_deploy_user}}"
 source_sources:
   - repo: https://github.com/Stouts/Django-application.git
-    dest: /usr/lib/{{base_project_name}}/source
+    dest: "{{deploy_src_dir}}"
 
 wsgi_hostname: "project.local"
 wsgi_apt_packages:
