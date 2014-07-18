@@ -25,7 +25,8 @@ postgresql_user_privileges:
 source_known_hosts: [github.com]
 source_owner: "{{base_deploy_user}}"
 source_sources:
-  - repo: https://github.com/Stouts/Django-application.git
+  - repo: https://github.com/topiaruss/Django-application.git
+    version: develop
     dest: "{{deploy_src_dir}}"
 
 wsgi_hostname: "project.local"
