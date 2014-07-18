@@ -30,6 +30,8 @@ source_sources:
     dest: "{{deploy_src_dir}}"
 
 wsgi_hostname: "project.local"
+wsgi_deb_packages:
+  - libpq-dev
 wsgi_apt_packages:
   - postgresql-server-dev-all
 
