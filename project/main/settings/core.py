@@ -87,6 +87,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.admin',
     'django.contrib.staticfiles',
+    'south',
 )
 
 AUTHENTICATION_BACKENDS = 'django.contrib.auth.backends.ModelBackend',
