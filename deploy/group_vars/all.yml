@@ -47,3 +47,6 @@ django_settings_caches:
       LOCATION: "{{redis_bind}}:{{redis_port}}:1"
 django_settings_additional:
     - BROKER_URL = 'redis://{{redis_bind}}:{{redis_port}}'
+
+#This was needed, or wsgi in Stouts.wsgi had problems with its run dir
+deploy_dir_skip: []
